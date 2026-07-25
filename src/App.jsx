@@ -2,7 +2,6 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { useAuthContext } from './contexts/AuthContext';
-import { useHerbContext } from './contexts/HerbContext';
 import { useLocation } from 'react-router-dom';
 import { useRef } from 'react';
 import AppLayout from './pages/AppLayout';
